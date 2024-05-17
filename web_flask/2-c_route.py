@@ -3,8 +3,10 @@
 
 from flask import Flask
 
+
 app = Flask(__name__)
 app.url_map.strict_slashes = False
+
 
 @app.route('/')
 def hello_world():
@@ -16,6 +18,7 @@ def hello_world():
 def hello():
     """ Return other text. """
     return 'HBNB'
+
 
 @app.route('/c/<text>')
 def c_text(text):
