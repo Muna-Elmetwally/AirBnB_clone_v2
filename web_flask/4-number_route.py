@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-'''A simple Flask web application.
-'''
+'''4. A simple Flask web application'''
+
 from flask import Flask
 
 
