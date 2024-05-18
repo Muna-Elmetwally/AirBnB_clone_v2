@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-'''A simple Flask web application.
-'''
+'''6. A simple Flask web application'''
 from flask import Flask, render_template
 
 
