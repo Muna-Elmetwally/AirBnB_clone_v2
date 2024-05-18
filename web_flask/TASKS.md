@@ -11,7 +11,7 @@
   + Routes:
     + `/`: display "Hello HBNB!".
     + `/hbnb`: display "HBNB".
-  + You must use the option `strict_slashes=False` in your route definition.
+  + You must use the option  `strict_slashes=False` in your route definition.
 
 + [x] 2. C is fun!<br/>_**[2-c_route.py](2-c_route.py)**_ contains a script that starts a Flask web application.
   + Your web application must be listening on `0.0.0.0`, port `5000`.
